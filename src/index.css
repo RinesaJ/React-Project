@@ -42,8 +42,14 @@
   padding: 0px;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1200px) {
+
+@media only screen and (max-width: 1200px) {
   .container {
     padding: 1rem 3rem;
+  }
+
+  .title,
+  .text {
+    margin-left: 0;
   }
 }
